@@ -1,0 +1,147 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    margin: 0;
+}
+.possible{
+    text-align: right;
+    background-image: url('../images/banner/banner2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* height: 508px;
+    width: 100%;
+    padding: 200px;*/
+    height: 900px;
+    margin-bottom: 200px;
+
+    
+}
+.possible-title{
+    font-size: 65px;
+   /* padding-bottom: 30px;*/
+   padding-top: 260px;
+   padding-right: 200px;
+}
+.possible-description{
+    font-size: 26px;
+    color: #444343;
+    padding-top: 25px;
+    padding-right: 200px;
+ }
+    
+.possible-btn{
+    color: rgb(249, 248, 248);
+    background-color: rgb(214, 120, 53);
+    width: 160px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top:25px;
+    margin-right: 200px;
+}
+/* failure */
+.failure{
+    display: flex;
+    justify-content: space-around;
+}
+.image{
+    padding: 160px 120px 50px;
+}
+.failure-title{
+    padding: 230px 620px 100px 50px;
+}
+.heading{
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+.failure-description{
+    font-size: 26px;
+    padding-bottom: 25px;
+    color: #444343;
+}
+.list{
+    font-size: 26px;
+    color: #444343;
+    list-style: none;
+    
+}
+.mark{
+    color: green;
+}
+/* plan */
+h3{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+}
+.plan-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    gap: 160px;
+}
+.plan-head{
+    font-size: 25px;
+    padding-top: 25px;
+    
+
+}
+.plan-des{
+    color: #444343;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.part-all{
+    text-align: center;
+}
+/* image*/
+h4{
+    font-size: 25px;
+    padding-top: 120px;
+    color: aliceblue;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+.picture{
+    background-image: url('../images/watch.png'), url('../images/gradient2.png');
+    background-blend-mode: luminosity;
+    margin: 80px 450px 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.call-btn{
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(93, 48, 9);
+    padding: 0;
+    margin-bottom: 80px;
+    margin-left: 60px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+     background-color: black;
+}
+.icons{
+    display: flex;
+    list-style: none;
+}
+.form{
+    margin-top: 42px;
+}
+.future{
+    color:white;
+}
+.image-head{
+    color: white;
+}
+.foot{
+    padding-right: 300px;
+}
