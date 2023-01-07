@@ -52,27 +52,33 @@ body{
 }
 .failure-title{
     padding: 230px 620px 100px 50px;
+   /*padding-top:360px;*/
+   text-align: left;
 }
 .heading{
+    /*font-size: 50px;
+    padding-bottom: 25px;*/
     font-size: 50px;
-    padding-bottom: 25px;
+   padding-bottom: 25px; 
 }
 .failure-description{
     font-size: 26px;
     padding-bottom: 25px;
     color: #444343;
+    
 }
 .list{
     font-size: 26px;
     color: #444343;
     list-style: none;
+    padding-left: 25px;
     
 }
 .mark{
     color: green;
 }
 /* plan */
-h3{
+.p2{
     font-size: 50px;
     text-align: center;
     padding-top: 70px;
@@ -111,37 +117,75 @@ h4{
     margin: 80px 450px 70px;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 5px;
     
 }
 .call-btn{
     font-size: 20px;
     width: 160px;
-    height: 64px;
+    height: 50px;
     border-radius: 5px;
     border: none;
     color: rgb(93, 48, 9);
-    padding: 0;
-    margin-bottom: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 120px;
     margin-left: 60px;
+    margin-top: 5px;
+    background-color: aqua;
 }
 footer{
     display: flex;
     justify-content: space-around;
      background-color: black;
+     height: 500px;
 }
 .icons{
     display: flex;
     list-style: none;
+    padding-left: 0px;
+
 }
 .form{
     margin-top: 42px;
+    margin-left: 460px;
 }
 .future{
     color:white;
+    margin-left: 300px;
+    margin-top: 65px;
 }
-.image-head{
+.sub{
     color: white;
+    padding-bottom:0px;
+    padding-top: 35px;
+    font-size: 35px;
 }
 .foot{
-    padding-right: 300px;
+    padding-right: 307px;
+    font-size: 44px;
+    margin-top:0px;
+    padding-top: 0px;
+}
+.twitt{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mail{
+   margin-left: 60px;
+   margin-bottom: 10px;
+   text-align:left;
+   border-radius: 5px;
+   padding: 5px 0px 5px 0px;
+   margin-top: 0px;
+   width: 250px;
+   padding-left: 5px;
+}
+.marq{
+    color: aliceblue;
+    font-size: 40px;
+}
+.marqq{
+    margin-right: 400px;
+    margin-left: 60px;
 }
